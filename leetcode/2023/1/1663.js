@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {string}
  */
-var getSmallestString = function(n, k) {
+const getSmallestString = function(n, k) {
   const answer = new Array(n).fill(1);
   k = k - n;
   for (let i = n - 1; i >= 0; i--) {

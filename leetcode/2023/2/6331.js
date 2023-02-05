@@ -3,12 +3,11 @@
  * @param {number} k
  * @return {number}
  */
-var maximizeWin = function(prizePositions, k) {
+const maximizeWin = function(prizePositions, k) {
   const map = new Map();
   prizePositions.forEach(position => {
     map.set(position, (map.get(position) || 0) + 1);
   });
-  
 
 
   let answer = 0;
@@ -46,4 +45,4 @@ var maximizeWin = function(prizePositions, k) {
   return answer;
 };
 
-console.log(maximizeWin([1,2,3,4,5], 1));
+console.log(maximizeWin([1, 2, 3, 4, 5], 1));

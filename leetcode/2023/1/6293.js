@@ -3,8 +3,8 @@
  * @param {number} k
  * @return {number}
  */
-var countGood = function(nums, k) {
-  let len = nums.length;
+const countGood = function(nums, k) {
+  const len = nums.length;
   if ((len - 1) * len / 2 < k) {
     return 0;
   }
@@ -15,7 +15,7 @@ var countGood = function(nums, k) {
 let count = 0;
 
 function recursion(nums, start, end, k) {
-  let len = end - start + 1;
+  const len = end - start + 1;
   if (start === end || (len - 1) * len / 2 < k) {
     return false;
   }
@@ -43,4 +43,4 @@ function recursion(nums, start, end, k) {
 }
 // 最短的子数组长度
 
-countGood([3,1,4,3,2,2,4], 2);
+countGood([3, 1, 4, 3, 2, 2, 4], 2);

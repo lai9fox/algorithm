@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number}
  */
-var minCapability = function(nums, k) {
+const minCapability = function(nums, k) {
   const max = [];
   const len = nums.length;
   for (let i = 0; i < k; i++) {
@@ -28,6 +28,5 @@ var minCapability = function(nums, k) {
 };
 
 
-
-const res = minCapability([2,7,9,3,1], 2);
+const res = minCapability([2, 7, 9, 3, 1], 2);
 console.log(res);

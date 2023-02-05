@@ -3,8 +3,8 @@
  * @param {number[][]} queries
  * @return {number[]}
  */
-var countPoints = function(points, queries) {
-  let ret = [];
+const countPoints = function(points, queries) {
+  const ret = [];
   for (const querie of queries) {
     let ans = 0;
     for (const point of points) {
@@ -21,7 +21,7 @@ function inCircle(cX, cY, r, x, y) {
   return (x - cX) ** 2 + (y - cY) ** 2 <= r ** 2;
 }
 
-const points = [[1,3],[3,3],[5,3],[2,2]];
-const queries = [[2,3,1],[4,3,1],[1,1,2]];
+const points = [[1, 3], [3, 3], [5, 3], [2, 2]];
+const queries = [[2, 3, 1], [4, 3, 1], [1, 1, 2]];
 const answer = countPoints(points, queries);
 console.log(answer);

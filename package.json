@@ -1,0 +1,23 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "算法题调试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lai9fox/algorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lai9fox/algorithm/issues"
+  },
+  "homepage": "https://github.com/lai9fox/algorithm#readme",
+  "devDependencies": {
+    "@lai9fox/eslint-config-js": "^1.0.0",
+    "eslint": "^8.33.0"
+  }
+}

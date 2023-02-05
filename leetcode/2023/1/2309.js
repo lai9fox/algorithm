@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {string}
  */
-var greatestLetter = function(s) {
+const greatestLetter = function(s) {
   const chars = s.split('');
   const set = new Set(chars);
   for (let i = 25; i >= 0; i--) {
